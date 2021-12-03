@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-
+//changed to port 3001, as I have issues connecting to 3000 in past.
 const PORT = process.env.PORT || 3001;
 
 const app = express();
