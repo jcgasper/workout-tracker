@@ -1,3 +1,4 @@
+//REQUIRE
 const express = require("express");
 const mongoose = require("mongoose");
 //changed to port 3001, as I have issues connecting to 3000 in past.
@@ -14,7 +15,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
-
 // ADD ROUTES  
 app.use(require("./routes/html-routes.js"));
 app.use(require("./routes/api-routes.js"));
