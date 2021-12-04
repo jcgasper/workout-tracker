@@ -2,8 +2,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
-//attempt to force heroku seed
-require("./seeders/seed");
+
+
 
 //changed to port 3005, as I have issues connecting to 3000 in past.
 const PORT = process.env.PORT || 3005;
