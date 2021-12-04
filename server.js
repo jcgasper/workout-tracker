@@ -1,11 +1,13 @@
 //REQUIRE
 const express = require("express");
 const mongoose = require("mongoose");
+const logger = require("morgan");
 //changed to port 3005, as I have issues connecting to 3000 in past.
 const PORT = process.env.PORT || 3005;
 
 const app = express();
 
+app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
