@@ -2,7 +2,7 @@
 
 ## Description
 
-  Tech Blog deployed to Heroku, allows users to view posts, create posts, and leave comments.
+  Workout Tracker, deployed to Heroku and using a MongoDB cloud database. Capable of logging workouts, and generates graphs showing workout duration, and pounds lifted. 
   
   [![license](https://img.shields.io/badge/license-MITLicense-blue)](https://shields.io)
   
@@ -20,7 +20,7 @@
   
   
   ## Installation
-  Download files from github, open in console/node. Run NPM install to install depedencies.
+  Download files from github, open in console/node. Run NPM install to install depedencies. To run on Heroku, use Heroku create, and connect Heroku to MongoDB database.
   
   ## Usage
   Run the schema file to create database. Then run "npm run seed" to seed the database, then npm start to start up server, to run locally.
@@ -63,4 +63,4 @@
   
   
 
-  [Deployed Heroku Application](https://shielded-cliffs-76642.herokuapp.com/ "Heroku app");
+  [Deployed Heroku Application](https://calm-mesa-14040.herokuapp.com/ "Heroku app");
